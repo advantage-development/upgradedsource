@@ -2,11 +2,11 @@
 // Copyright (c) 2009-2014 The Bitcredit developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-# this is amount.cpp
+//this file is amount.cpp
 #include "amount.h"
 
 #include "tinyformat.h"
-#fee is currently calculated in "satoshis" per kilobyte (kB) of information sent
+//fee is currently calculated in "satoshis" per kilobyte (kB) of information sent
 CFeeRate::CFeeRate(const CAmount& nFeePaid, size_t nSize)
 {
     if (nSize > 0)
